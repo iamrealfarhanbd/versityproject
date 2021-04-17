@@ -107,7 +107,7 @@ function validateForm() {
     
     return false;
   }else{
-    setInterval(function(){ location.href = `Login.html?username=${email}${password}`; }, 3000)
+    setInterval(function(){ location.href = `index.html?username=${email}${password}`; }, 3000)
   }
 }
 
