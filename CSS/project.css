@@ -1,0 +1,120 @@
+.main-body-left {
+    width: 70%;
+    padding: 80px;
+}
+h3#Portfolio {
+    margin-top: 80px;
+    text-align-last: center;
+}
+.body-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #efe4e463 !important;
+    z-index: 99999999;
+    justify-content: center;
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px ;
+    flex-wrap: wrap;
+}
+
+.hero {
+    height: 200px;
+}
+
+
+
+/*=============================
+        Tab Responsiev
+===============================*/
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .body-content {
+      display: flex;
+      flex-direction: row;
+      background-color: #efe4e463 !important;
+      z-index: 99999999;
+    }
+     .main-body-left {
+      width: 80%;
+      padding: 40px;
+  }
+  /*
+    .main-body-right {
+      width: 30%;
+      padding: 40px 20px;
+    } */
+    .skill-box {
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      border: 1px solid #00000045;
+      padding: 30px;
+    }
+    .projects .card {
+      margin: 20px 21px;
+      flex: 0.4;
+  }
+  
+  .footer-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background: #0c182b;
+      padding: 80px 20px;
+      color: #fff;
+  }
+  }
+  
+  
+  /*=============================
+          Mobile Responsiev
+  ===============================*/
+  
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    
+  
+  .body-content {
+      display: flex;
+      flex-direction: column;
+      background-color: #efe4e463 !important;
+      z-index: 99999999;
+      align-items: center;
+  }
+  .projects {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    flex-wrap: wrap;
+  }
+  .main-body-right {
+    width: 84%;
+    padding: 20px;
+  }
+  .main-body-left {
+    width: 84%;
+    padding: 20px;
+  }
+  .hero .content {
+    color: #fff;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero {
+    height: 200px;
+  }
+  
+
+  }
+  
+  
+  
+  

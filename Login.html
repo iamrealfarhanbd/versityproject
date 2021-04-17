@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/register.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Form Validator</title>
+  </head>
+  <body>
+    <div class="mynav">
+                
+      <div class="farhanscss" id="Farhansid">
+        
+          <a href="Index.html" class="active">Home</a>
+          <div class="dropdown">
+          <button class="dropbtn">Course 
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Html</a>
+              <a href="#">css</a>
+              <a href="#">javascript</a>
+              <a href="#">Php</a>
+          </div>
+          </div> 
+          <a href="Contact.html">Contact Us</a>
+          <a href="About.html">About</a>
+          <a href="Blog.html">Blog</a>
+          <a href="Project.html">Project</a>
+          <a href="Register.html">Registration</a>
+          <a href="Login.html">Login</a>
+         
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      <section class="body">
+    <div class="container">
+
+      <form id="form" class="form" name="login" onsubmit="return validateLogin()" required>
+
+      <h2>Log In With Us</h2>
+
+      <!-- <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username" />
+        <small>Error Message</small>
+      </div> -->
+
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email1" placeholder="Enter email" name="fname" />
+        <small>Error Message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="password1">Password</label>
+        <input type="password" id="password1" placeholder="Enter password" />
+        <small>Error Message</small>
+      </div>
+
+
+
+      <button type="submit1" onclick="validate()" >Sign In</button>
+      
+    </form>
+  </section>
+
+
+    <footer>
+      <div class="footer-top">
+        <div class="one">
+          <div class="img">
+          <img src="images/images.png" alt="">
+        </div>
+        <ul>
+          <li><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</li>
+          <li><i class="fa fa-twitter-square" aria-hidden="true"></i> twitter</li>
+          <li><i class="fa fa-instagram" aria-hidden="true"></i> instagram</li>
+
+        </ul>
+        </div>
+        <div class="two">
+          <div class="heading">
+          <h1>Important Link</h1>
+        </div>
+        <ul>
+          <li><a href="#news">News</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#news">News</a></li>
+
+        </ul>
+        </div>
+        <div class="three">
+          <div class="heading">
+          <h1>Quick Links</h1>
+        </div>
+        <ul>
+          <li><a href="#news">News</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#news">News</a></li>
+
+        </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/register.js"></script>
+    <script src="js/login.js"></script>
+
+    <script src="js/custom.js"></script>
+  
+  </body>
+</html>
