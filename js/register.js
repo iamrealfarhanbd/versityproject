@@ -124,7 +124,7 @@ if(username === "" && password === "" ){
 }
 else if ( username === username && password === password ){
 swal("Welcome...!",  username , "success");
-setInterval(function(){ location.href = "index.html"; }, 3000)
+setInterval(function(){ location.href = "Index.html"; }, 3000)
 console.log(username)
 
 return false;
